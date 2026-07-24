@@ -1,0 +1,1697 @@
+{
+  "catalog": {
+    "common": {
+      "loading": "Loading…",
+      "unknown": "—"
+    },
+    "interest": {
+      "course": {
+        "title": "Interested in this course?",
+        "body": "Leave your details and our team will contact you when enrollment opens."
+      },
+      "path": {
+        "title": "Interested in this learning path?",
+        "body": "Leave your details and our team will contact you with the next steps."
+      },
+      "disclaimer": "This registers your interest only — it does not enrol your child, reserve a seat, or take payment.",
+      "form": {
+        "fields": {
+          "parentName": "Parent / guardian name",
+          "phone": "Phone",
+          "email": "Email (optional)",
+          "childAge": "Child's age (optional)",
+          "notes": "Anything else? (optional)"
+        },
+        "submit": "Send",
+        "submitting": "Sending…",
+        "cancel": "Cancel",
+        "errors": {
+          "parentName": "Please enter the parent or guardian name.",
+          "phone": "Please enter a valid phone number.",
+          "email": "Please enter a valid email address.",
+          "childAge": "Child's age must be between 3 and 18.",
+          "notes": "Please shorten your note."
+        },
+        "error": {
+          "generic": "Sorry, something went wrong. Please try again."
+        }
+      },
+      "success": {
+        "title": "Interest received",
+        "body": "Thanks — your interest was received. Our team will contact you soon.",
+        "note": "Enrollment isn't open yet; this is not a booking or payment.",
+        "close": "Done"
+      }
+    },
+    "media": {
+      "courseAlt": "Course cover image",
+      "pathAlt": "Learning path cover image"
+    },
+    "landing": {
+      "kicker": "Explore the catalog",
+      "title": "Learn to code, the joyful way",
+      "lead": "Hands-on courses and guided learning paths for curious kids and teens aged 6–16.",
+      "browseCourses": "Browse courses",
+      "browsePaths": "Browse learning paths",
+      "courses": {
+        "title": "Courses",
+        "body": "Bite-sized, project-based courses across coding, web, games, AI, and robotics.",
+        "cta": "Explore courses"
+      },
+      "paths": {
+        "title": "Learning paths",
+        "body": "Follow a guided journey that bundles courses into a step-by-step adventure.",
+        "cta": "Explore learning paths"
+      }
+    },
+    "courses": {
+      "kicker": "Courses",
+      "title": "Find the perfect course",
+      "lead": "Project-based courses that turn curiosity into real coding skills.",
+      "results": "{{count}} courses",
+      "clearFilters": "Clear filters",
+      "backToBrowse": "Back to courses",
+      "filters": {
+        "searchLabel": "Search",
+        "searchPlaceholder": "Search courses…",
+        "ageBand": "Age group",
+        "allAges": "All ages",
+        "sort": "Sort by",
+        "sortOptions": { "recent": "Newest", "title": "Title (A–Z)" },
+        "category": "Category",
+        "allCategories": "All categories"
+      },
+      "card": {
+        "ages": "Ages",
+        "level": "Level",
+        "delivery": "Format",
+        "cta": "View details"
+      },
+      "empty": {
+        "filtered": {
+          "title": "No courses match your filters",
+          "body": "Try adjusting or clearing the filters to see more courses."
+        },
+        "none": {
+          "title": "Courses are coming soon",
+          "body": "New courses are on the way. Check back shortly!"
+        }
+      },
+      "error": {
+        "title": "Couldn't load courses",
+        "body": "Something went wrong while loading courses. Please try again.",
+        "invalidFilters": "Those filters aren't valid. Clear them and try again.",
+        "retry": "Try again"
+      },
+      "pagination": {
+        "label": "Courses pagination",
+        "previous": "Previous",
+        "next": "Next",
+        "pageOf": "Page {{page}} of {{total}}"
+      },
+      "detail": {
+        "ages": "Ages",
+        "watchIntro": "Watch intro",
+        "loading": "Loading course…",
+        "listSeparator": ", ",
+        "sections": {
+          "about": "About this course",
+          "outcomes": "What your child will learn",
+          "modules": "Course modules"
+        },
+        "modules": { "untitled": "Untitled module" },
+        "sidebar": {
+          "detailsHeading": "Course details",
+          "category": "Category",
+          "ages": "Ages",
+          "level": "Level",
+          "format": "Format",
+          "price": "Price",
+          "languages": "Available in"
+        },
+        "price": {
+          "free": "Free",
+          "seeDetails": "See details",
+          "model": { "OneTime": "One-time purchase", "Subscription": "Subscription" }
+        },
+        "locales": { "en": "English", "ar": "Arabic" },
+        "enroll": {
+          "title": "Enrollment isn't open yet",
+          "body": "Enrollment isn't open yet — leave your details and our team will contact you when it is.",
+          "cta": "Enrollment coming soon",
+          "interestCta": "Register interest",
+          "browse": "Browse courses"
+        },
+        "notFound": {
+          "title": "Course not found",
+          "body": "We couldn't find that course. It may have been unpublished, or the link may be incorrect."
+        },
+        "error": {
+          "title": "Couldn't load this course",
+          "body": "Something went wrong while loading this course. Please try again.",
+          "retry": "Try again"
+        }
+      }
+    },
+    "learningPaths": {
+      "kicker": "Learning paths",
+      "title": "Follow a guided journey",
+      "lead": "Learning paths bundle courses into a step-by-step adventure — from first blocks to real projects.",
+      "results": "{{count}} learning paths",
+      "clearFilters": "Clear filters",
+      "backToBrowse": "Back to learning paths",
+      "filters": {
+        "ageBand": "Age group",
+        "allAges": "All ages",
+        "note": "Learning paths are curated journeys, so we keep it simple — just filter by age group."
+      },
+      "card": {
+        "badge": "Learning path",
+        "courses": "{{count}} courses",
+        "cta": "View path"
+      },
+      "empty": {
+        "filtered": {
+          "title": "No learning paths match your filters",
+          "body": "Try a different age group to see more learning paths."
+        },
+        "none": {
+          "title": "Learning paths are coming soon",
+          "body": "Guided journeys are on the way. Check back shortly!"
+        }
+      },
+      "error": {
+        "title": "Couldn't load learning paths",
+        "body": "Something went wrong while loading learning paths. Please try again.",
+        "invalidFilters": "Those filters aren't valid. Clear them and try again.",
+        "retry": "Try again"
+      },
+      "pagination": {
+        "label": "Learning paths pagination",
+        "previous": "Previous",
+        "next": "Next",
+        "pageOf": "Page {{page}} of {{total}}"
+      },
+      "detail": {
+        "backToPaths": "Back to learning paths",
+        "loading": "Loading learning path…",
+        "sequence": {
+          "heading": "Course sequence",
+          "lead": "Follow these courses in order to complete the path.",
+          "step": "Step {{step}}",
+          "empty": {
+            "title": "Courses for this path are coming soon",
+            "body": "We're lining up the courses for this journey. Check back shortly!"
+          }
+        },
+        "sidebar": {
+          "detailsHeading": "Path details",
+          "ageBand": "Age group",
+          "courses": "Courses"
+        },
+        "access": {
+          "title": "Enrollment isn't open yet",
+          "body": "Enrollment for this path isn't open yet — leave your details and our team will contact you with the next steps.",
+          "cta": "Path access coming soon",
+          "interestCta": "Register interest",
+          "browse": "Browse courses"
+        },
+        "notFound": {
+          "title": "Learning path not found",
+          "body": "We couldn't find that learning path. It may have been unpublished, or the link may be incorrect."
+        },
+        "error": {
+          "title": "Couldn't load this learning path",
+          "body": "Something went wrong while loading this learning path. Please try again.",
+          "retry": "Try again"
+        }
+      }
+    }
+  },
+  "app": {
+    "name": "Code Spark Kids",
+    "tagline": "A learning adventure for future builders."
+  },
+  "skip": {
+    "toMain": "Skip to main content"
+  },
+  "skeleton": {
+    "title": "Foundation ready",
+    "description": "Repository skeleton is wired up. Feature work begins with Task A2.",
+    "languageLabel": "Language",
+    "directionLabel": "Direction",
+    "stackHeading": "What is wired in this skeleton",
+    "stackItems": {
+      "backend": "ASP.NET Core 8 (Clean Architecture) with Serilog, Swagger, ProblemDetails, health checks, rate limiting, CORS.",
+      "frontend": "React + Vite + TypeScript (strict), Tailwind CSS, shadcn/ui foundation, React Router.",
+      "i18n": "i18next with English and Arabic; document direction switches automatically.",
+      "ci": "GitHub Actions workflow runs build, test, and lint on every pull request."
+    },
+    "openDesignSystem": "Open the design system"
+  },
+  "languages": {
+    "en": "English",
+    "ar": "العربية"
+  },
+  "nav": {
+    "mobileMenuLabel": "Open menu",
+    "common": {
+      "soon": "Soon"
+    },
+    "marketing": {
+      "primaryLabel": "Primary navigation",
+      "mobileDescription": "Browse the public marketing surface.",
+      "home": "Home",
+      "courses": "Courses",
+      "paths": "Learning paths",
+      "about": "About",
+      "faq": "FAQ",
+      "contact": "Contact",
+      "signIn": "Sign in"
+    },
+    "student": {
+      "primaryLabel": "Student navigation",
+      "mobileDescription": "Jump between learning, practice, and rewards.",
+      "dashboard": "Home",
+      "learning": "Learning",
+      "assignments": "Assignments",
+      "projects": "Projects",
+      "practice": "Practice",
+      "achievements": "Achievements"
+    },
+    "staff": {
+      "primaryLabel": "Staff navigation",
+      "mobileDescription": "Operational shell for instructors, admins, and super-admins.",
+      "groups": {
+        "overview": "Overview",
+        "catalog": "Catalog",
+        "teaching": "Teaching",
+        "operations": "Operations"
+      },
+      "home": "Dashboard",
+      "analytics": "Analytics",
+      "courses": "Courses",
+      "categories": "Categories",
+      "learningPaths": "Learning paths",
+      "interestLeads": "Interest leads",
+      "students": "Students",
+      "liveSessions": "Live sessions",
+      "users": "Users",
+      "payments": "Payments",
+      "support": "Support",
+      "audit": "Audit log",
+      "settings": "Settings",
+      "searchPlaceholder": "Search courses, students, instructors…",
+      "searchLabel": "Search",
+      "notificationsLabel": "Notifications"
+    },
+    "parent": {
+      "primaryLabel": "Parent navigation",
+      "mobileDescription": "Manage your children, progress, attendance, payments, and notifications.",
+      "notificationsLabel": "Notifications",
+      "groups": {
+        "overview": "Overview",
+        "family": "Family",
+        "account": "Account"
+      },
+      "dashboard": "Dashboard",
+      "children": "Children",
+      "progress": "Progress",
+      "attendance": "Attendance",
+      "reports": "Reports",
+      "payments": "Payments",
+      "notifications": "Notifications",
+      "settings": "Settings"
+    }
+  },
+  "footer": {
+    "tagline": "A premium learning adventure for ages 6 to 16. Built by a small team that cares about how children learn.",
+    "copyright": "© {{year}} Code Spark Kids",
+    "note": "Private beta · feature work begins after the foundation phases.",
+    "groups": {
+      "product": "Product",
+      "company": "Company",
+      "legal": "Legal"
+    },
+    "product": {
+      "courses": "Courses",
+      "paths": "Learning paths",
+      "practice": "Coding practice"
+    },
+    "company": {
+      "about": "About",
+      "careers": "Careers",
+      "contact": "Contact"
+    },
+    "legal": {
+      "privacy": "Privacy",
+      "terms": "Terms of service",
+      "coppa": "COPPA / GDPR"
+    }
+  },
+  "marketing": {
+    "home": {
+      "kicker": "Coding for curious kids",
+      "title": "A learning adventure for future builders.",
+      "lead": "Kids and teens aged 6–16 explore coding through project-based courses and guided learning paths — in English and Arabic.",
+      "ctaPrimary": "Explore the catalog",
+      "ctaSecondary": "Browse courses",
+      "highlightsHeading": "Why families choose Code Spark",
+      "highlights": {
+        "ages": {
+          "title": "Ages 6–16",
+          "body": "Age-appropriate tracks for juniors and explorers."
+        },
+        "projects": {
+          "title": "Project-based",
+          "body": "Kids build real games, sites, and apps — not just watch."
+        },
+        "paths": {
+          "title": "Guided paths",
+          "body": "Step-by-step journeys instead of scattered lessons."
+        },
+        "bilingual": {
+          "title": "English & Arabic",
+          "body": "Fully bilingual, with polished right-to-left support."
+        }
+      },
+      "catalog": {
+        "heading": "Explore our learning catalog",
+        "lead": "Two ways in: pick a single course, or follow a guided path that bundles courses into one adventure.",
+        "seeAll": "See the full catalog",
+        "courses": {
+          "title": "Courses",
+          "body": "Project-based courses across coding, web, games, AI, and robotics.",
+          "cta": "Browse courses"
+        },
+        "paths": {
+          "title": "Learning paths",
+          "body": "Guided journeys that bundle courses into a step-by-step adventure.",
+          "cta": "Browse learning paths"
+        }
+      }
+    }
+  },
+  "student": {
+    "home": {
+      "kicker": "Student shell preview",
+      "title": "Your learning adventure starts here",
+      "lead": "Once you finish onboarding, this is where you'll continue your courses, join live sessions, and earn XP.",
+      "upcomingHeading": "Coming next",
+      "upcomingDescription": "These tiles will activate as Phase D and E land.",
+      "tilesPhase": "Phase D / E",
+      "tiles": {
+        "learning": {
+          "title": "Continue learning",
+          "body": "Pick up where you left off across courses and projects."
+        },
+        "practice": {
+          "title": "Coding practice",
+          "body": "Browser-only HTML/CSS/JS sandbox — safe and instant."
+        },
+        "achievements": {
+          "title": "Achievements",
+          "body": "XP, badges, and streaks tied to real learning."
+        }
+      },
+      "emptyHeading": "Today",
+      "emptyDescription": "Real activity will replace this once enrolment is live.",
+      "empty": {
+        "title": "Nothing to do yet",
+        "description": "Once a parent enrols you, your daily quest will appear here."
+      }
+    }
+  },
+  "staff": {
+    "home": {
+      "kicker": "Productivity shell preview",
+      "title": "Staff overview",
+      "lead": "Operational chrome for instructors, admins, and super-admins. Real data lands in Phase G.",
+      "crumbHome": "Home",
+      "crumbOverview": "Overview",
+      "placeholder": "Stub",
+      "statsHeading": "Today",
+      "statsDescription": "Stat tiles render shell + typography only — numbers will come from the analytics endpoints in Phase G.",
+      "stats": {
+        "activeStudents": {
+          "label": "Active students",
+          "note": "Children logged in over the last 24 hours."
+        },
+        "submissions": {
+          "label": "Submissions pending",
+          "note": "Awaiting instructor review."
+        },
+        "liveToday": {
+          "label": "Live sessions today",
+          "note": "Scheduled across all enrolled cohorts."
+        },
+        "incidents": {
+          "label": "Incidents open",
+          "note": "Support tickets or platform anomalies."
+        }
+      },
+      "queueHeading": "Action queue",
+      "queueDescription": "What needs you today — sorted by urgency.",
+      "queueEmpty": {
+        "title": "All clear",
+        "description": "The action queue will populate once instructors and admins start using the platform."
+      }
+    },
+    "forbidden": {
+      "kicker": "Access restricted",
+      "title": "You don't have access to this area",
+      "lead": "This section is limited to admins and super-admins. If you believe you should have access, contact a super-admin to review your role.",
+      "backHome": "Back to staff home",
+      "logout": "Sign out"
+    },
+    "catalog": {
+      "interests": {
+        "kicker": "Catalog administration",
+        "title": "Interest leads",
+        "lead": "People who registered interest from the public catalog. This is a follow-up queue — no enrollment, seat, or payment is created here.",
+        "listHeading": "Leads",
+        "listDescription": "Newest first. Filter by status and mark leads as you follow up.",
+        "loading": "Loading leads…",
+        "error": "Couldn't load interest leads. Please try again.",
+        "submitted": "Submitted {{when}}",
+        "childAge": "Child age {{age}}",
+        "filters": {
+          "label": "Filter by status",
+          "all": "All",
+          "new": "New",
+          "contacted": "Contacted",
+          "archived": "Archived"
+        },
+        "sourceType": {
+          "course": "Course",
+          "learningPath": "Learning path"
+        },
+        "status": {
+          "new": "New",
+          "contacted": "Contacted",
+          "archived": "Archived"
+        },
+        "actions": {
+          "markContacted": "Mark contacted",
+          "archive": "Archive",
+          "reopen": "Reopen"
+        },
+        "empty": {
+          "title": "No leads yet",
+          "description": "Interest submitted from public course and learning-path pages will appear here."
+        },
+        "adminNotes": {
+          "heading": "Staff note",
+          "label": "Staff note",
+          "placeholder": "Private follow-up note — never shown to the family.",
+          "add": "Add note",
+          "edit": "Edit note",
+          "save": "Save note",
+          "saving": "Saving…",
+          "cancel": "Cancel"
+        },
+        "export": {
+          "button": "Export CSV",
+          "hint": "Exports the leads shown on this page as a CSV file.",
+          "columns": {
+            "submitted": "Submitted (UTC)",
+            "sourceType": "Type",
+            "source": "Source",
+            "parentName": "Parent name",
+            "phone": "Phone",
+            "email": "Email",
+            "childAge": "Child age",
+            "language": "Preferred language",
+            "notes": "Notes",
+            "status": "Status",
+            "adminNotes": "Staff note"
+          }
+        },
+        "pagination": {
+          "label": "Interest leads pages",
+          "previous": "Previous",
+          "next": "Next",
+          "pageOf": "Page {{page}} of {{total}}"
+        }
+      },
+      "kicker": "Catalog administration",
+      "contextId": "Route parameter: {{id}}",
+      "enums": {
+        "publishState": {
+          "Draft": "Draft",
+          "InReview": "In review",
+          "Published": "Published",
+          "Archived": "Archived"
+        },
+        "deliveryType": {
+          "Recorded": "Recorded",
+          "Live": "Live",
+          "Hybrid": "Hybrid"
+        },
+        "difficulty": {
+          "Beginner": "Beginner",
+          "Intermediate": "Intermediate",
+          "Advanced": "Advanced"
+        },
+        "ageBand": {
+          "Junior": "Junior",
+          "Explorer": "Explorer"
+        },
+        "listed": {
+          "listed": "Listed",
+          "unlisted": "Unlisted"
+        },
+        "instructorRole": {
+          "Lead": "Lead",
+          "Assistant": "Assistant"
+        },
+        "pricingModel": {
+          "Free": "Free",
+          "OneTime": "One-time",
+          "Subscription": "Subscription"
+        }
+      },
+      "media": {
+        "thumbnailLabel": "Thumbnail image",
+        "heroLabel": "Hero image",
+        "previewAlt": "Current image preview",
+        "upload": {
+          "action": "Upload image",
+          "replace": "Replace image",
+          "remove": "Remove",
+          "uploading": "Uploading…",
+          "uploaded": "Image uploaded",
+          "hint": "PNG, JPEG, WebP or GIF, up to 5 MB.",
+          "errors": {
+            "type": "Choose a PNG, JPEG, WebP, or GIF image.",
+            "size": "Image is too large. Maximum size is 5 MB.",
+            "failed": "That image couldn’t be uploaded. Please try another file."
+          }
+        }
+      },
+      "placeholder": {
+        "title": "This area is prepared",
+        "body": "The structure, navigation, and access control for this screen are in place. The actual screen implementation comes in a later C2 task."
+      },
+      "courses": {
+        "title": "Courses",
+        "lead": "Browse, create, and manage courses — drafts, modules, instructors, and lifecycle.",
+        "newCrumb": "New course",
+        "newTitle": "Create a course",
+        "newLead": "The course creation form will live here.",
+        "create": {
+          "title": "New course",
+          "lead": "Create the draft first, then complete content, modules, instructors, and publishing in the editor.",
+          "basics": "Basics",
+          "classification": "Classification",
+          "chooseCategory": "Select a category…",
+          "submit": "Create course",
+          "submitting": "Creating…",
+          "cancel": "Cancel",
+          "fields": {
+            "titleEn": "Course title (English)",
+            "titleAr": "Course title (Arabic)"
+          },
+          "guidance": {
+            "title": "After you create",
+            "lead": "You'll open the editor to finish the course:",
+            "content": "Complete the bilingual content and summary.",
+            "modules": "Add at least one module.",
+            "instructor": "Assign a lead instructor.",
+            "media": "Add a thumbnail and media if needed.",
+            "publish": "Publish once the readiness checks pass."
+          },
+          "error": {
+            "summaryTitle": "Couldn't create the course",
+            "validation": "Please review the highlighted fields and try again.",
+            "slugTaken": "That slug is already used by another course. Try a different one.",
+            "generic": "Something went wrong while creating the course. Please try again.",
+            "noId": "The course was created but couldn't be opened automatically. Find it in the courses list."
+          }
+        },
+        "detailCrumb": "Course",
+        "detailTitle": "Course details",
+        "detailLead": "The course editor — modules, instructors, and publishing — will live here.",
+        "list": {
+          "searchLabel": "Search",
+          "searchPlaceholder": "Search by title or slug…",
+          "filtersLabel": "Course filters",
+          "allOption": "All",
+          "clearFilters": "Clear filters",
+          "results": "{{count}} courses",
+          "updating": "Updating…",
+          "loading": "Loading courses…",
+          "tableCaption": "List of courses with status, delivery, difficulty, age band, category, and actions.",
+          "filters": {
+            "status": "Status",
+            "deliveryType": "Delivery",
+            "difficulty": "Difficulty",
+            "ageBand": "Age band",
+            "category": "Category",
+            "listed": "Visibility",
+            "sort": "Sort by"
+          },
+          "sort": {
+            "updated": "Recently updated",
+            "newest": "Newest",
+            "title": "Title A–Z",
+            "status": "Status"
+          },
+          "columns": {
+            "course": "Course",
+            "status": "Status",
+            "delivery": "Delivery",
+            "difficulty": "Difficulty",
+            "age": "Age",
+            "category": "Category",
+            "listed": "Visibility",
+            "updated": "Updated",
+            "actions": "Actions"
+          },
+          "actions": {
+            "newCourse": "New course",
+            "edit": "Manage",
+            "editAria": "Manage {{title}}"
+          },
+          "empty": {
+            "none": {
+              "title": "No courses yet",
+              "body": "Create your first course to start building the catalog."
+            },
+            "filtered": {
+              "title": "No courses match these filters",
+              "body": "Try adjusting or clearing the filters to see more."
+            }
+          },
+          "error": {
+            "title": "Couldn't load courses",
+            "body": "Something went wrong while loading the course list. Please try again.",
+            "forbidden": "You don't have permission to view courses.",
+            "retry": "Try again"
+          },
+          "pagination": {
+            "label": "Courses pagination",
+            "previous": "Previous",
+            "next": "Next",
+            "pageOf": "Page {{page}} of {{total}}"
+          }
+        },
+        "detail": {
+          "crumb": "Course",
+          "backToCourses": "Back to courses",
+          "loading": "Loading course…",
+          "notFound": {
+            "title": "Course not found",
+            "body": "This course may have been deleted, or the link is incorrect."
+          },
+          "error": {
+            "title": "Couldn't load this course",
+            "body": "Something went wrong while loading the course. Please try again.",
+            "forbidden": "You don't have permission to view this course.",
+            "retry": "Try again"
+          },
+          "tabs": {
+            "overview": "Overview",
+            "content": "Content",
+            "modules": "Modules",
+            "instructors": "Instructors",
+            "publishing": "Publishing"
+          },
+          "overview": {
+            "slug": "Slug",
+            "status": "Status",
+            "visibility": "Visibility",
+            "delivery": "Delivery",
+            "difficulty": "Difficulty",
+            "ageBand": "Age band",
+            "category": "Category",
+            "noCategory": "No category",
+            "pricing": "Pricing",
+            "created": "Created",
+            "updated": "Updated",
+            "published": "Published",
+            "archived": "Archived"
+          },
+          "content": {
+            "title": "Title",
+            "subtitle": "Subtitle",
+            "summary": "Summary",
+            "description": "Description",
+            "outcomes": "Learning outcomes",
+            "empty": "Not set",
+            "langEn": "English",
+            "langAr": "Arabic"
+          },
+          "modules": {
+            "heading": "Course modules",
+            "lead": "Organise the course into ordered modules. Lessons are managed separately.",
+            "add": "Add module",
+            "empty": "No modules yet. Add the first one to shape the course.",
+            "noTitle": "Untitled module",
+            "edit": "Edit",
+            "remove": "Remove",
+            "moveUp": "Move module up",
+            "moveDown": "Move module down",
+            "fields": {
+              "titleEn": "Title (English)",
+              "titleAr": "Title (Arabic)",
+              "summaryEn": "Summary (English)",
+              "summaryAr": "Summary (Arabic)"
+            },
+            "dialog": {
+              "addTitle": "Add module",
+              "addBody": "Create a new module for this course. You can reorder it afterwards.",
+              "editTitle": "Edit module",
+              "editBody": "Update this module's title and summary.",
+              "save": "Save module",
+              "saving": "Saving…",
+              "cancel": "Cancel"
+            },
+            "removeDialog": {
+              "title": "Remove this module?",
+              "body": "This removes the module from the course structure. It doesn't delete any lessons — lesson management arrives in a later task.",
+              "confirm": "Remove module",
+              "working": "Removing…"
+            },
+            "feedback": {
+              "added": "Module added.",
+              "updated": "Module updated.",
+              "removed": "Module removed.",
+              "reordered": "Modules reordered."
+            },
+            "error": {
+              "title": "Couldn't complete that",
+              "invalidState": "This action isn't available right now. Reload the course and try again.",
+              "forbidden": "You don't have permission to manage modules.",
+              "notFound": "This module no longer exists. Reload the course.",
+              "generic": "Something went wrong while updating modules. Please try again."
+            },
+            "validation": {
+              "titleRequired": "An English title is required.",
+              "tooLong": "This value is too long."
+            }
+          },
+          "instructors": {
+            "heading": "Course instructors",
+            "lead": "Assign the instructors who teach this course and set each one's role.",
+            "assign": "Assign instructor",
+            "empty": "No instructors assigned yet. Assign a lead to make the course publishable.",
+            "userIdLabel": "Instructor user ID",
+            "remove": "Remove",
+            "fields": {
+              "userId": "Instructor user ID",
+              "userIdHint": "Paste the instructor's user ID. Names appear once a directory is available.",
+              "role": "Role on course"
+            },
+            "roleHint": {
+              "Lead": "Leads the course. A lead is required before publishing.",
+              "Assistant": "Supports course delivery alongside the lead."
+            },
+            "dialog": {
+              "title": "Assign an instructor",
+              "body": "Add an instructor to this course by user ID and choose their role.",
+              "confirm": "Assign instructor",
+              "saving": "Assigning…",
+              "cancel": "Cancel"
+            },
+            "removeDialog": {
+              "title": "Remove this instructor?",
+              "body": "This removes the instructor from this course. It doesn't delete their account.",
+              "confirm": "Remove instructor",
+              "working": "Removing…"
+            },
+            "feedback": {
+              "assigned": "Instructor assigned.",
+              "removed": "Instructor removed."
+            },
+            "error": {
+              "title": "Couldn't complete that",
+              "invalidState": "This action isn't available right now. Reload the course and try again.",
+              "forbidden": "You don't have permission to manage instructors.",
+              "notFound": "That user couldn't be found or isn't an eligible instructor.",
+              "generic": "Something went wrong while updating instructors. Please try again."
+            },
+            "validation": {
+              "idRequired": "An instructor user ID is required.",
+              "idFormat": "Enter a valid user ID (UUID).",
+              "idNotFound": "That user couldn't be found or isn't an eligible instructor.",
+              "roleRequired": "Choose a role."
+            }
+          },
+          "publishing": {
+            "stateHeading": "Current state",
+            "readinessHeading": "Publish readiness",
+            "readyTitle": "Ready to publish",
+            "readyBody": "All requirements are met. You can publish this course now.",
+            "blockedTitle": "Not ready to publish",
+            "blockedBody": "Resolve the following before publishing:",
+            "lifecycleHeading": "Lifecycle actions",
+            "lifecycleNotice": "Available actions reflect the course's current state.",
+            "publish": "Publish",
+            "unpublish": "Unpublish",
+            "archive": "Archive",
+            "restore": "Restore",
+            "publishDisabledHint": "Resolve the requirements above to publish this course.",
+            "dialog": {
+              "cancel": "Cancel",
+              "working": "Working…",
+              "publish": {
+                "title": "Publish this course?",
+                "body": "Once published, this course can appear in the public catalog and be enrolled in.",
+                "confirm": "Publish course"
+              },
+              "unpublish": {
+                "title": "Unpublish this course?",
+                "body": "Unpublishing returns the course to draft so you can keep editing it.",
+                "impact": "This course will be hidden from the public catalog. Current enrollments are unaffected.",
+                "confirm": "Unpublish course"
+              },
+              "archive": {
+                "title": "Archive this course?",
+                "body": "Archiving takes the course out of active use while keeping its content.",
+                "impact": "Archived courses are hidden from the public catalog, and editing is limited until the course is restored.",
+                "confirm": "Archive course"
+              },
+              "restore": {
+                "title": "Restore this course?",
+                "body": "The course returns to draft and stays hidden from the public catalog until you publish it again.",
+                "confirm": "Restore course"
+              }
+            },
+            "feedback": {
+              "publish": "Course published.",
+              "unpublish": "Course unpublished.",
+              "archive": "Course archived.",
+              "restore": "Course restored."
+            },
+            "blocked": {
+              "title": "Publish blocked",
+              "body": "This course isn't ready to publish yet. Resolve the unmet requirements and try again."
+            },
+            "error": {
+              "title": "Action couldn't be completed",
+              "invalidState": "This action isn't available for the course's current state. Reload and try again.",
+              "forbidden": "You don't have permission to perform this action.",
+              "notFound": "This course no longer exists. It may have been deleted.",
+              "generic": "Something went wrong while updating the course. Please try again."
+            }
+          },
+          "concurrency": {
+            "title": "This course changed since you opened it",
+            "body": "Another admin may have updated this course. Reload the latest version before making changes.",
+            "reload": "Reload latest"
+          }
+        },
+        "edit": {
+          "save": "Save changes",
+          "saving": "Saving…",
+          "cancel": "Cancel",
+          "unsavedChanges": "Unsaved changes",
+          "savedToast": "Changes saved.",
+          "archivedNote": "Archived courses are read-only. Restore the course to edit it.",
+          "sections": {
+            "basics": "Basics",
+            "media": "Media"
+          },
+          "fields": {
+            "slugHint": "Lowercase letters, numbers, and single hyphens. Leave unchanged to keep the current slug.",
+            "minAge": "Minimum age",
+            "maxAge": "Maximum age",
+            "isListedHint": "Listed courses can appear in the public catalog once published.",
+            "thumbnailKey": "Thumbnail key",
+            "thumbnailAlt": "Thumbnail alt text",
+            "heroKey": "Hero image key",
+            "promoVideoUrl": "Promo video URL",
+            "promoVideoHint": "Full URL starting with http(s)://"
+          },
+          "outcomes": {
+            "add": "Add outcome",
+            "empty": "No learning outcomes yet.",
+            "rowEn": "Outcome {{index}} (English)",
+            "rowAr": "Outcome {{index}} (Arabic)",
+            "remove": "Remove outcome {{index}}"
+          },
+          "error": {
+            "summaryTitle": "Couldn't save changes",
+            "validation": "Please review the highlighted fields and try again.",
+            "generic": "Something went wrong while saving. Please try again.",
+            "slugTaken": "That slug is already used by another course."
+          },
+          "validation": {
+            "titleRequired": "An English title is required.",
+            "tooLong": "This value is too long.",
+            "slugInvalid": "Use lowercase letters, numbers, and single hyphens.",
+            "slugTaken": "Already in use.",
+            "enum": "Choose a valid option.",
+            "ageNumber": "Enter a whole number.",
+            "ageBounds": "Age must be between 0 and 120.",
+            "ageRange": "Minimum age must be less than or equal to maximum age.",
+            "categoryRequired": "Choose a category.",
+            "urlInvalid": "Enter a valid http(s) URL."
+          }
+        }
+      },
+      "categories": {
+        "title": "Categories",
+        "lead": "Organise the catalog with bilingual categories. Activate or retire them without deletion.",
+        "status": {
+          "active": "Active",
+          "inactive": "Inactive"
+        },
+        "feedback": {
+          "created": "Category created.",
+          "updated": "Category updated.",
+          "activated": "Category activated.",
+          "deactivated": "Category deactivated."
+        },
+        "concurrency": {
+          "title": "This category changed since you opened it",
+          "body": "Another admin may have updated this category. Reload the latest version before making changes.",
+          "reload": "Reload latest"
+        },
+        "list": {
+          "searchLabel": "Search",
+          "searchPlaceholder": "Search by name or slug…",
+          "filtersLabel": "Category filters",
+          "allOption": "All",
+          "clearFilters": "Clear filters",
+          "results": "{{count}} categories",
+          "updating": "Updating…",
+          "loading": "Loading categories…",
+          "tableCaption": "List of categories with status, display order, published course count, and actions.",
+          "filters": {
+            "status": "Status",
+            "sort": "Sort by"
+          },
+          "sort": {
+            "order": "Display order",
+            "name": "Name A–Z",
+            "newest": "Newest",
+            "updated": "Recently updated"
+          },
+          "columns": {
+            "category": "Category",
+            "status": "Status",
+            "order": "Order",
+            "courses": "Courses",
+            "updated": "Updated",
+            "actions": "Actions"
+          },
+          "actions": {
+            "newCategory": "New category",
+            "edit": "Edit",
+            "editAria": "Edit {{name}}",
+            "activate": "Activate",
+            "deactivate": "Deactivate",
+            "activateAria": "Activate {{name}}",
+            "deactivateAria": "Deactivate {{name}}"
+          },
+          "empty": {
+            "none": {
+              "title": "No categories yet",
+              "body": "Create your first category to start organising the catalog."
+            },
+            "filtered": {
+              "title": "No categories match these filters",
+              "body": "Try adjusting or clearing the filters to see more."
+            }
+          },
+          "error": {
+            "title": "Couldn't load categories",
+            "body": "Something went wrong while loading the category list. Please try again.",
+            "forbidden": "You don't have permission to view categories.",
+            "retry": "Try again"
+          },
+          "pagination": {
+            "label": "Categories pagination",
+            "previous": "Previous",
+            "next": "Next",
+            "pageOf": "Page {{page}} of {{total}}"
+          }
+        },
+        "form": {
+          "createTitle": "New category",
+          "createBody": "Add a bilingual category. Leave the slug blank to derive it from the English name.",
+          "editTitle": "Edit category",
+          "editBody": "Update this category's names, description, slug, icon, and display order.",
+          "create": "Create category",
+          "saveEdit": "Save changes",
+          "saving": "Saving…",
+          "cancel": "Cancel",
+          "loading": "Loading category…",
+          "loadError": "Couldn't load this category. Close the dialog and try again.",
+          "fields": {
+            "nameEn": "Name (English)",
+            "nameAr": "Name (Arabic)",
+            "descriptionEn": "Description (English)",
+            "descriptionAr": "Description (Arabic)",
+            "slug": "Slug",
+            "icon": "Icon",
+            "order": "Display order"
+          },
+          "hints": {
+            "slug": "Lowercase letters, numbers, and single hyphens. Leave blank to derive from the English name.",
+            "icon": "Optional icon name or key.",
+            "order": "Lower numbers appear first. Defaults to 0."
+          },
+          "error": {
+            "summaryTitle": "Couldn't save the category",
+            "validation": "Please review the highlighted fields and try again.",
+            "slugTaken": "That slug is already used by another category. Try a different one.",
+            "generic": "Something went wrong while saving. Please try again."
+          },
+          "validation": {
+            "nameRequired": "An English name is required.",
+            "tooLong": "This value is too long.",
+            "slugInvalid": "Use lowercase letters, numbers, and single hyphens.",
+            "slugTaken": "Already in use.",
+            "orderNumber": "Enter a whole number.",
+            "orderBounds": "Order must be between 0 and 9999."
+          }
+        },
+        "statusDialog": {
+          "cancel": "Cancel",
+          "working": "Working…",
+          "deactivate": {
+            "title": "Deactivate this category?",
+            "body": "Deactivating retires the category without deleting it.",
+            "impact": "It will be hidden from public category filters. Existing courses using it are not deleted and keep their category.",
+            "confirm": "Deactivate category"
+          },
+          "activate": {
+            "title": "Activate this category?",
+            "body": "The category becomes available again and can appear in public category filters.",
+            "confirm": "Activate category"
+          },
+          "error": {
+            "generic": "Something went wrong while updating the category. Please try again."
+          }
+        }
+      },
+      "learningPaths": {
+        "title": "Learning paths",
+        "lead": "Curate ordered learning paths that group courses into a guided journey.",
+        "list": {
+          "searchLabel": "Search",
+          "searchPlaceholder": "Search by title or slug…",
+          "filtersLabel": "Learning path filters",
+          "allOption": "All",
+          "clearFilters": "Clear filters",
+          "results": "{{count}} learning paths",
+          "updating": "Updating…",
+          "loading": "Loading learning paths…",
+          "tableCaption": "List of learning paths with status, visibility, age band, course count, and actions.",
+          "filters": {
+            "status": "Status",
+            "ageBand": "Age band",
+            "listed": "Visibility",
+            "sort": "Sort by"
+          },
+          "sort": {
+            "updated": "Recently updated",
+            "newest": "Newest",
+            "title": "Title A–Z",
+            "status": "Status"
+          },
+          "columns": {
+            "path": "Learning path",
+            "status": "Status",
+            "visibility": "Visibility",
+            "ageBand": "Age band",
+            "courses": "Courses",
+            "updated": "Updated",
+            "actions": "Actions"
+          },
+          "actions": {
+            "newPath": "New learning path",
+            "manage": "Manage",
+            "manageAria": "Manage {{title}}"
+          },
+          "empty": {
+            "none": {
+              "title": "No learning paths yet",
+              "body": "Learning paths group courses into a guided journey. Create your first one to get started."
+            },
+            "filtered": {
+              "title": "No learning paths match these filters",
+              "body": "Try adjusting or clearing the filters to see more."
+            }
+          },
+          "error": {
+            "title": "Couldn't load learning paths",
+            "body": "Something went wrong while loading the learning-path list. Please try again.",
+            "forbidden": "You don't have permission to view learning paths.",
+            "retry": "Try again"
+          },
+          "pagination": {
+            "label": "Learning paths pagination",
+            "previous": "Previous",
+            "next": "Next",
+            "pageOf": "Page {{page}} of {{total}}"
+          }
+        },
+        "newCrumb": "New learning path",
+        "create": {
+          "title": "New learning path",
+          "lead": "Create the draft first, then complete content, add course items, and publish in the editor.",
+          "basics": "Basics",
+          "content": "Content",
+          "contentLead": "A short bilingual summary. You can refine it later in the editor.",
+          "submit": "Create learning path",
+          "submitting": "Creating…",
+          "cancel": "Cancel",
+          "fields": {
+            "titleEn": "Title (English)",
+            "titleAr": "Title (Arabic)",
+            "summaryEn": "Summary (English)",
+            "summaryAr": "Summary (Arabic)",
+            "slugHint": "Optional. Lowercase letters, numbers, and single hyphens. Leave blank to generate one from the title."
+          },
+          "guidance": {
+            "title": "After you create",
+            "lead": "You'll open the editor to finish the learning path:",
+            "content": "Complete the bilingual title and summary.",
+            "items": "Add at least one course item.",
+            "published": "Make sure at least one item is a published course.",
+            "media": "Add a thumbnail and media if needed.",
+            "publish": "Publish once the readiness checks pass."
+          },
+          "error": {
+            "summaryTitle": "Couldn't create the learning path",
+            "validation": "Please review the highlighted fields and try again.",
+            "slugTaken": "That slug is already used by another learning path. Try a different one.",
+            "generic": "Something went wrong while creating the learning path. Please try again.",
+            "noId": "The learning path was created but couldn't be opened automatically. Find it in the learning paths list."
+          }
+        },
+        "detail": {
+          "crumb": "Learning path",
+          "backToPaths": "Back to learning paths",
+          "loading": "Loading learning path…",
+          "coursesCount": "{{count}} courses",
+          "archivedNote": "This learning path is archived and read-only until it is restored.",
+          "notFound": {
+            "title": "Learning path not found",
+            "body": "This learning path may have been deleted, or the link is incorrect."
+          },
+          "forbidden": {
+            "title": "Access restricted",
+            "body": "You don't have permission to view this learning path."
+          },
+          "error": {
+            "title": "Couldn't load this learning path",
+            "body": "Something went wrong while loading it. Please try again.",
+            "retry": "Try again"
+          },
+          "tabs": {
+            "overview": "Overview",
+            "content": "Content",
+            "items": "Courses",
+            "publishing": "Publishing"
+          },
+          "overview": {
+            "heading": "Overview",
+            "slug": "Slug",
+            "status": "Status",
+            "visibility": "Visibility",
+            "ageBand": "Age band",
+            "courses": "Courses",
+            "created": "Created",
+            "updated": "Updated",
+            "published": "Published",
+            "archived": "Archived",
+            "mediaHeading": "Media",
+            "thumbnailKey": "Thumbnail key",
+            "thumbnailAlt": "Thumbnail alt text",
+            "heroKey": "Hero image key",
+            "promoVideoUrl": "Promo video URL",
+            "empty": "Not set"
+          },
+          "content": {
+            "heading": "Content",
+            "title": "Title",
+            "summary": "Summary",
+            "langEn": "English",
+            "langAr": "Arabic",
+            "empty": "Not set",
+            "descriptionNote": "A learning path has a bilingual title and summary. A longer description isn't part of the learning-path model."
+          },
+          "items": {
+            "heading": "Courses in this path",
+            "lead": "The ordered courses that make up this learning path.",
+            "add": "Add course",
+            "empty": "No courses in this learning path yet.",
+            "note": "Note",
+            "moveUp": "Move course up",
+            "moveDown": "Move course down",
+            "remove": "Remove",
+            "fields": {
+              "courseId": "Course ID",
+              "courseIdHint": "Paste the course's ID (UUID). A course picker arrives in a later task.",
+              "note": "Note"
+            },
+            "dialog": {
+              "title": "Add a course",
+              "body": "Add a course to this learning path by its ID. You can reorder it afterwards.",
+              "add": "Add course",
+              "adding": "Adding…",
+              "cancel": "Cancel"
+            },
+            "removeDialog": {
+              "title": "Remove this course?",
+              "body": "This removes the course from this learning path. The course itself is not deleted.",
+              "confirm": "Remove course",
+              "working": "Removing…"
+            },
+            "feedback": {
+              "added": "Course added.",
+              "removed": "Course removed.",
+              "reordered": "Courses reordered."
+            },
+            "error": {
+              "title": "Couldn't complete that",
+              "invalidState": "This action isn't available right now. Reload the learning path and try again.",
+              "forbidden": "You don't have permission to manage courses.",
+              "notFound": "This course is no longer in the learning path. Reload the learning path.",
+              "generic": "Something went wrong. Please try again.",
+              "duplicate": "This course is already in the learning path.",
+              "courseNotFound": "No course was found with this ID.",
+              "validation": "Please review the highlighted fields and try again."
+            },
+            "validation": {
+              "courseIdRequired": "A course ID is required.",
+              "courseIdFormat": "Enter a valid course ID (UUID).",
+              "tooLong": "This value is too long.",
+              "duplicate": "Already in this learning path.",
+              "courseNotFound": "No course found with this ID."
+            }
+          },
+          "publishing": {
+            "stateHeading": "Current state",
+            "status": "Status",
+            "visibility": "Visibility",
+            "readinessHeading": "Publish readiness",
+            "readyTitle": "Ready to publish",
+            "readyBody": "All requirements are met.",
+            "blockedTitle": "Not ready to publish",
+            "blockedBody": "Resolve the following before publishing:",
+            "noReadiness": "Readiness checks will appear when available.",
+            "actionsHeading": "Lifecycle actions",
+            "publish": "Publish",
+            "unpublish": "Unpublish",
+            "archive": "Archive",
+            "restore": "Restore",
+            "publishDisabledHint": "Resolve the requirements above to publish this learning path.",
+            "dialog": {
+              "cancel": "Cancel",
+              "working": "Working…",
+              "publish": {
+                "title": "Publish this learning path?",
+                "body": "Once published, this learning path can appear in the public catalog for learners to follow.",
+                "confirm": "Publish learning path"
+              },
+              "unpublish": {
+                "title": "Unpublish this learning path?",
+                "body": "Unpublishing returns the learning path to draft so you can keep editing it.",
+                "impact": "This learning path will no longer be publicly visible. Its courses and items are not deleted.",
+                "confirm": "Unpublish learning path"
+              },
+              "archive": {
+                "title": "Archive this learning path?",
+                "body": "Archiving takes the learning path out of active use while keeping its content.",
+                "impact": "Archived learning paths are hidden from public views, and editing and item management are disabled until it is restored. Existing courses and items are not deleted.",
+                "confirm": "Archive learning path"
+              },
+              "restore": {
+                "title": "Restore this learning path?",
+                "body": "The learning path returns to draft and stays hidden from public views until you publish it again.",
+                "confirm": "Restore learning path"
+              }
+            },
+            "feedback": {
+              "publish": "Learning path published.",
+              "unpublish": "Learning path unpublished.",
+              "archive": "Learning path archived.",
+              "restore": "Learning path restored."
+            },
+            "blocked": {
+              "title": "Publish blocked",
+              "body": "This learning path isn't ready to publish yet. Resolve the unmet requirements and try again."
+            },
+            "concurrency": {
+              "title": "This learning path changed since you opened it",
+              "body": "Another admin may have updated this learning path. Reload the latest version before retrying this action.",
+              "reload": "Reload latest"
+            },
+            "error": {
+              "title": "Action couldn't be completed",
+              "invalidState": "This action isn't available for the learning path's current state. Reload and try again.",
+              "forbidden": "You don't have permission to perform this action.",
+              "notFound": "This learning path no longer exists. It may have been deleted.",
+              "generic": "Something went wrong while updating the learning path. Please try again."
+            }
+          }
+        },
+        "edit": {
+          "save": "Save changes",
+          "saving": "Saving…",
+          "cancel": "Cancel",
+          "unsavedChanges": "Unsaved changes",
+          "savedToast": "Changes saved.",
+          "archivedNote": "Archived learning paths are read-only. Restore the path to edit it.",
+          "sections": {
+            "basics": "Basics",
+            "media": "Media",
+            "details": "Details"
+          },
+          "fields": {
+            "slugHint": "Lowercase letters, numbers, and single hyphens. Leave unchanged to keep the current slug.",
+            "slugLockedHint": "The slug can only be changed while the learning path is a draft.",
+            "isListedHint": "Listed learning paths can appear in the public catalog.",
+            "isListedLockedHint": "Only a published learning path can be listed.",
+            "promoVideoHint": "Full URL starting with http(s)://"
+          },
+          "error": {
+            "summaryTitle": "Couldn't save changes",
+            "validation": "Please review the highlighted fields and try again.",
+            "slugTaken": "That slug is already used by another learning path. Try a different one.",
+            "generic": "Something went wrong while saving. Please try again."
+          },
+          "validation": {
+            "titleRequired": "An English title is required.",
+            "tooLong": "This value is too long.",
+            "slugInvalid": "Use lowercase letters, numbers, and single hyphens.",
+            "slugTaken": "Already in use.",
+            "enum": "Choose a valid option.",
+            "urlInvalid": "Enter a valid http(s) URL."
+          },
+          "concurrency": {
+            "title": "This learning path changed since you opened it",
+            "body": "Another admin may have updated this learning path. Reload the latest version before making changes.",
+            "reload": "Reload latest"
+          }
+        }
+      }
+    }
+  },
+  "guard": {
+    "loading": "Checking your access…"
+  },
+  "courses": {
+    "readiness": {
+      "titleIncomplete": "Title must be present in English and Arabic.",
+      "summaryIncomplete": "Summary must be present in English and Arabic.",
+      "descriptionMissing": "A description is required.",
+      "primaryCategoryMissing": "A primary category is required.",
+      "ageRangeInvalid": "Minimum age must be less than or equal to maximum age.",
+      "slugInvalid": "The slug is invalid.",
+      "thumbnailMissing": "A thumbnail image is required.",
+      "leadInstructorMissing": "At least one lead instructor is required.",
+      "modulesRequired": "Recorded and hybrid courses need at least one module.",
+      "unknown": "An unknown requirement is unmet."
+    }
+  },
+  "learningPaths": {
+    "readiness": {
+      "titleIncomplete": "Title must be present in English and Arabic.",
+      "noItems": "Add at least one course to this learning path.",
+      "noPublishedCourse": "Add at least one published course to this learning path.",
+      "unknown": "An unknown requirement is unmet."
+    }
+  },
+  "parent": {
+    "home": {
+      "kicker": "Parent shell preview",
+      "title": "Welcome back, {{name}}",
+      "lead": "This is your home base. Soon you'll see each child's recent learning, upcoming sessions, payments, and instructor notes — all in one place.",
+      "fallbackName": "parent",
+      "logout": "Sign out",
+      "upcomingHeading": "Coming next",
+      "upcomingDescription": "These workspaces activate as Phases C through H land. Today they show the safe layout we will fill with real data.",
+      "tilesPhase": "Coming soon",
+      "todayHeading": "Today",
+      "todayDescription": "Real-time activity from your children will appear here.",
+      "empty": {
+        "title": "Nothing to review yet",
+        "description": "Once your children are enrolled and active, today's lessons, submissions, and announcements will land here."
+      },
+      "tiles": {
+        "children": {
+          "title": "Children",
+          "body": "Profiles, PIN credentials, age band, and the courses each child is enrolled in."
+        },
+        "progress": {
+          "title": "Progress",
+          "body": "Weekly minutes, completed lessons, mastery growth, and instructor commentary in plain language."
+        },
+        "attendance": {
+          "title": "Attendance",
+          "body": "Live-session attendance and at-a-glance streaks per child."
+        },
+        "payments": {
+          "title": "Payments",
+          "body": "Receipts, upcoming charges, refunds, and your billing details."
+        },
+        "reports": {
+          "title": "Reports",
+          "body": "Downloadable weekly summaries, certificates of completion, and parent–instructor notes."
+        },
+        "notifications": {
+          "title": "Notifications",
+          "body": "Choose which updates reach you by email and in-app — never noisy, always useful."
+        }
+      }
+    }
+  },
+  "auth": {
+    "trust": {
+      "secure": "Encrypted, parent-managed, COPPA & GDPR-aware. We never sell your data.",
+      "privacy": "Privacy",
+      "terms": "Terms",
+      "support": "Support"
+    },
+    "fields": {
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm password",
+      "displayName": "Your name",
+      "preferredLocale": "Preferred language",
+      "acceptedTerms": "I agree to the Terms of Service and Privacy Policy"
+    },
+    "hints": {
+      "displayName": "Shown on receipts and inside your dashboard. You can change this later.",
+      "password": "12+ characters; mix of upper, lower, numbers, or symbols (any three of four)."
+    },
+    "register": {
+      "kicker": "Create your parent account",
+      "title": "Start your child's learning adventure",
+      "description": "One account manages all of your children. We'll send a verification link to confirm your email.",
+      "submit": "Create account",
+      "submitting": "Creating your account…",
+      "haveAccount": "Already have an account?",
+      "signIn": "Sign in",
+      "successTitle": "Account created — check your email.",
+      "successBody": "We've sent a verification link to your inbox. It's valid for 24 hours."
+    },
+    "login": {
+      "kicker": "Welcome back",
+      "title": "Sign in to your parent account",
+      "description": "Access your children's progress, schedule, and account in one place.",
+      "submit": "Sign in",
+      "submitting": "Signing in…",
+      "noAccount": "New to Code Spark Kids?",
+      "createAccount": "Create a parent account",
+      "forgotPassword": "Forgot your password?",
+      "verifiedToast": "Your email is verified. You can sign in now.",
+      "resetToast": "Your password was updated. Sign in with your new password."
+    },
+    "verifyEmail": {
+      "kicker": "Verify your email",
+      "title": "Confirming your email",
+      "description": "We're confirming the verification link from your email.",
+      "loading": "Verifying your email…",
+      "successTitle": "Email verified",
+      "successDescription": "Thanks for confirming. You can now sign in.",
+      "successBody": "Thanks for confirming. You can now sign in.",
+      "invalidTitle": "Link expired or invalid",
+      "invalidDescription": "Verification links expire for safety. Request a new one from the resend form.",
+      "invalidBody": "Verification links expire for safety. Request a new one from the resend form.",
+      "continueToLogin": "Continue to sign in",
+      "requestNew": "Request a new verification email"
+    },
+    "verifyEmailSent": {
+      "kicker": "Almost there",
+      "title": "Check your email",
+      "description": "We just sent you a verification link.",
+      "body": "Open the email we sent and click the verification link to activate your account. The link is good for 24 hours.",
+      "didNotReceive": "Didn't get the email?",
+      "resend": "Resend verification email",
+      "resending": "Sending…",
+      "resentMessage": "If that address has a pending verification, we just re-sent the email.",
+      "backToLogin": "Back to sign in"
+    },
+    "forgot": {
+      "kicker": "Reset your password",
+      "title": "Forgot your password?",
+      "description": "Enter the email on your account and we'll send a password reset link.",
+      "submit": "Send reset link",
+      "submitting": "Sending…",
+      "hint": "For your safety we always show the same confirmation, whether or not the email is on file.",
+      "sentTitle": "If that email is registered, a reset link is on its way.",
+      "sentBody": "The link is valid for 1 hour. Check your spam folder if you don't see it within a few minutes.",
+      "backToLogin": "Back to sign in"
+    },
+    "reset": {
+      "kicker": "Reset your password",
+      "title": "Choose a new password",
+      "description": "Pick a strong password you don't use anywhere else.",
+      "submit": "Save new password",
+      "submitting": "Saving…",
+      "successTitle": "Password updated",
+      "successBody": "Your password was updated. Sending you to sign in…",
+      "invalidTitle": "Reset link expired or invalid",
+      "invalidBody": "Reset links expire after 1 hour. Request a new one from the forgot-password page.",
+      "requestNew": "Request a new reset link",
+      "backToLogin": "Back to sign in"
+    },
+    "errors": {
+      "emailRequired": "Email is required.",
+      "emailInvalid": "Enter a valid email address.",
+      "emailTooLong": "Email must be 254 characters or fewer.",
+      "passwordRequired": "Password is required.",
+      "passwordTooShort": "Use at least 12 characters.",
+      "passwordTooLong": "Keep your password under 128 characters.",
+      "passwordComplexity": "Use any three of: uppercase, lowercase, numbers, or symbols.",
+      "passwordMismatch": "Passwords do not match.",
+      "confirmPasswordRequired": "Please confirm your password.",
+      "displayNameRequired": "Tell us how to address you.",
+      "displayNameTooLong": "Keep your name under 80 characters.",
+      "displayNameControlChars": "Please remove control characters from your name.",
+      "localeUnsupported": "Choose a supported language.",
+      "termsRequired": "Please accept the Terms and Privacy Policy to continue.",
+      "invalidCredentials": "Email or password is incorrect.",
+      "emailNotVerified": "Please verify your email before signing in. Check your inbox for the verification link.",
+      "accountLocked": "Too many attempts. Try again in a few minutes, or reset your password.",
+      "refreshInvalid": "Your session has expired. Please sign in again.",
+      "refreshTheft": "Your session was reset for safety. Please sign in again.",
+      "resetInvalid": "This reset link is invalid or has expired.",
+      "verifyInvalid": "This verification link is invalid or has expired.",
+      "accessInvalid": "Please sign in to continue.",
+      "validation": "Please double-check the fields and try again.",
+      "rateLimited": "Too many requests. Please wait a moment and try again.",
+      "server": "Something went wrong on our side. Please try again in a moment.",
+      "network": "We couldn't reach the server. Check your connection and try again.",
+      "generic": "Something went wrong. Please try again.",
+      "invalidToken": "This link is invalid or has expired."
+    }
+  },
+  "designSystem": {
+    "kicker": "Task A2 · Visual Foundation",
+    "title": "Design System",
+    "lead": "Tokenised primitives, three age-aware themes, and full RTL support. Visual QA harness only — not a production page.",
+    "themeLabel": "Theme",
+    "themeNames": {
+      "junior": "Junior · ages 6–9",
+      "explorer": "Explorer · ages 10–16",
+      "staff": "Staff · instructor / admin"
+    },
+    "sections": {
+      "colors": "Colours",
+      "typography": "Typography",
+      "radius": "Radius",
+      "shadows": "Shadows",
+      "motion": "Motion",
+      "buttons": "Buttons",
+      "inputs": "Inputs",
+      "cards": "Cards",
+      "badges": "Badges",
+      "dialog": "Dialog",
+      "sheet": "Sheet",
+      "dropdown": "Dropdown menu",
+      "tabs": "Tabs",
+      "tooltip": "Tooltip"
+    },
+    "sectionLead": {
+      "colors": "Semantic colour tokens. Every component reads from these CSS variables — never hardcoded hex values.",
+      "typography": "Type scale at the active theme's base font size. Inter for Latin, Cairo for Arabic.",
+      "radius": "Radius scale. Junior is rounder, Staff is tighter, Explorer sits in the middle.",
+      "shadows": "Three-step elevation scale, neutral and direction-agnostic.",
+      "motion": "Hover a card to animate. Junior is slower and friendlier, Staff is snappy.",
+      "buttons": "All variants and sizes. Focus rings are visible. Icons size automatically.",
+      "inputs": "Form fields with labels. Focus state uses the theme's ring colour.",
+      "cards": "Surface containers. Composed of Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter.",
+      "badges": "Status pills. Use sparingly — never as decoration.",
+      "dialog": "Modal dialog with focus trap. Backdrop, animation, close button mirror correctly in RTL.",
+      "sheet": "Side panels. `side=\"start\"` and `side=\"end\"` resolve along the inline axis, so they auto-flip in RTL.",
+      "dropdown": "Menu attached to a trigger. Keyboard-navigable.",
+      "tabs": "Tab list with three panels. Arrow keys move focus.",
+      "tooltip": "Hover or focus the button to reveal."
+    },
+    "typeSample": "The quick brown fox jumps over the lazy dog.",
+    "motionHint": "Hover the card to animate width.",
+    "iconButtonLabel": "Notifications",
+    "withIconLeading": "With icon",
+    "withIconTrailing": "Save",
+    "inputs": {
+      "emailLabel": "Parent email",
+      "pinLabel": "Child PIN",
+      "disabledLabel": "Read-only example",
+      "disabledPlaceholder": "Disabled input"
+    },
+    "cards": {
+      "exampleTitle": "Course overview",
+      "exampleDescription": "A simple content card.",
+      "exampleBody": "Cards use the surface token for background and the border token for the outline. Padding and gap come from the spacing scale.",
+      "primaryAction": "Enrol",
+      "secondaryAction": "Save",
+      "statTitle": "Active learners",
+      "statDescription": "Across all enrolled children.",
+      "thisWeek": "this week"
+    },
+    "badges": {
+      "default": "Default",
+      "secondary": "Secondary",
+      "accent": "Accent",
+      "success": "Live",
+      "warning": "Beta",
+      "destructive": "Down",
+      "outline": "Outline"
+    },
+    "dialog": {
+      "open": "Open dialog",
+      "title": "Confirm enrolment",
+      "description": "Type OK to confirm enrolling Layla in Introduction to Scratch.",
+      "confirmLabel": "Type OK to confirm",
+      "cancel": "Cancel",
+      "confirm": "Confirm"
+    },
+    "sheet": {
+      "openStart": "Open sheet (start)",
+      "openEnd": "Open sheet (end)",
+      "title": "Side panel",
+      "descriptionStart": "Anchored to the start of the inline axis — left in LTR, right in RTL.",
+      "descriptionEnd": "Anchored to the end of the inline axis — right in LTR, left in RTL.",
+      "close": "Close"
+    },
+    "dropdown": {
+      "trigger": "Options",
+      "label": "Account",
+      "profile": "Profile",
+      "settings": "Settings",
+      "signOut": "Sign out"
+    },
+    "tabs": {
+      "learning": "Learning",
+      "progress": "Progress",
+      "rewards": "Rewards",
+      "learningBody": "Continue where you left off across courses, projects, and coding practice.",
+      "progressBody": "Weekly minutes, completed lessons, and instructor feedback summarised for parents.",
+      "rewardsBody": "XP, badges, and streaks earned by completing real learning — never for time spent."
+    },
+    "tooltip": {
+      "hover": "Hover or focus",
+      "content": "Tooltips position automatically and flip in RTL."
+    },
+    "footer": "Design system route is for visual QA only. It is excluded from the public marketing surface."
+  }
+}

@@ -1,0 +1,493 @@
+{
+  "app": {
+    "name": "Code Spark Kids",
+    "tagline": "A learning adventure for future builders."
+  },
+  "skip": {
+    "toMain": "Skip to main content"
+  },
+  "skeleton": {
+    "title": "Foundation ready",
+    "description": "Repository skeleton is wired up. Feature work begins with Task A2.",
+    "languageLabel": "Language",
+    "directionLabel": "Direction",
+    "stackHeading": "What is wired in this skeleton",
+    "stackItems": {
+      "backend": "ASP.NET Core 8 (Clean Architecture) with Serilog, Swagger, ProblemDetails, health checks, rate limiting, CORS.",
+      "frontend": "React + Vite + TypeScript (strict), Tailwind CSS, shadcn/ui foundation, React Router.",
+      "i18n": "i18next with English and Arabic; document direction switches automatically.",
+      "ci": "GitHub Actions workflow runs build, test, and lint on every pull request."
+    },
+    "openDesignSystem": "Open the design system"
+  },
+  "languages": {
+    "en": "English",
+    "ar": "العربية"
+  },
+  "nav": {
+    "mobileMenuLabel": "Open menu",
+    "common": {
+      "soon": "Soon"
+    },
+    "marketing": {
+      "primaryLabel": "Primary navigation",
+      "mobileDescription": "Browse the public marketing surface.",
+      "home": "Home",
+      "courses": "Courses",
+      "paths": "Learning paths",
+      "about": "About",
+      "faq": "FAQ",
+      "contact": "Contact",
+      "signIn": "Sign in"
+    },
+    "student": {
+      "primaryLabel": "Student navigation",
+      "mobileDescription": "Jump between learning, practice, and rewards.",
+      "dashboard": "Home",
+      "learning": "Learning",
+      "assignments": "Assignments",
+      "projects": "Projects",
+      "practice": "Practice",
+      "achievements": "Achievements"
+    },
+    "staff": {
+      "primaryLabel": "Staff navigation",
+      "mobileDescription": "Operational shell for instructors, admins, and super-admins.",
+      "groups": {
+        "overview": "Overview",
+        "teaching": "Teaching",
+        "operations": "Operations"
+      },
+      "home": "Dashboard",
+      "analytics": "Analytics",
+      "courses": "Courses",
+      "students": "Students",
+      "liveSessions": "Live sessions",
+      "users": "Users",
+      "payments": "Payments",
+      "support": "Support",
+      "audit": "Audit log",
+      "settings": "Settings",
+      "searchPlaceholder": "Search courses, students, instructors…",
+      "searchLabel": "Search",
+      "notificationsLabel": "Notifications"
+    },
+    "parent": {
+      "primaryLabel": "Parent navigation",
+      "mobileDescription": "Manage your children, progress, attendance, payments, and notifications.",
+      "notificationsLabel": "Notifications",
+      "groups": {
+        "overview": "Overview",
+        "family": "Family",
+        "account": "Account"
+      },
+      "dashboard": "Dashboard",
+      "children": "Children",
+      "progress": "Progress",
+      "attendance": "Attendance",
+      "reports": "Reports",
+      "payments": "Payments",
+      "notifications": "Notifications",
+      "settings": "Settings"
+    }
+  },
+  "footer": {
+    "tagline": "A premium learning adventure for ages 6 to 16. Built by a small team that cares about how children learn.",
+    "copyright": "© {{year}} Code Spark Kids",
+    "note": "Private beta · feature work begins after the foundation phases.",
+    "groups": {
+      "product": "Product",
+      "company": "Company",
+      "legal": "Legal"
+    },
+    "product": {
+      "courses": "Courses",
+      "paths": "Learning paths",
+      "practice": "Coding practice"
+    },
+    "company": {
+      "about": "About",
+      "careers": "Careers",
+      "contact": "Contact"
+    },
+    "legal": {
+      "privacy": "Privacy",
+      "terms": "Terms of service",
+      "coppa": "COPPA / GDPR"
+    }
+  },
+  "marketing": {
+    "home": {
+      "kicker": "A3 · Application shells",
+      "title": "A learning adventure for future builders.",
+      "lead": "Children 6–16 explore coding through recorded lessons, live sessions, and creative projects — guided by parents and great instructors.",
+      "ctaPrimary": "Create a parent account",
+      "ctaSecondary": "Browse courses",
+      "foundationNote": "Public CTAs activate when authentication lands in Phase B.",
+      "surfacesHeading": "Application surfaces",
+      "surfaces": {
+        "student": "Student shell preview",
+        "staff": "Staff shell preview",
+        "designSystem": "Design system showcase"
+      },
+      "scopeHeading": "What this task delivered",
+      "scopeDescription": "The marketing, student, and staff surfaces share one component library and one token system.",
+      "foundationStatus": "Foundation · ready",
+      "scopeItems": {
+        "tokens": {
+          "title": "Token-driven",
+          "body": "Every primitive reads colours, radius, shadows, and motion from CSS variables — no hardcoded values."
+        },
+        "shells": {
+          "title": "Three shells",
+          "body": "Marketing, Student, and Staff. A future Parent shell will join them when that surface lands."
+        },
+        "rtl": {
+          "title": "RTL-first",
+          "body": "Every layout uses logical Tailwind utilities. A lint rule fails CI on directional classes."
+        }
+      }
+    }
+  },
+  "student": {
+    "home": {
+      "kicker": "Student shell preview",
+      "title": "Your learning adventure starts here",
+      "lead": "Once you finish onboarding, this is where you'll continue your courses, join live sessions, and earn XP.",
+      "upcomingHeading": "Coming next",
+      "upcomingDescription": "These tiles will activate as Phase D and E land.",
+      "tilesPhase": "Phase D / E",
+      "tiles": {
+        "learning": {
+          "title": "Continue learning",
+          "body": "Pick up where you left off across courses and projects."
+        },
+        "practice": {
+          "title": "Coding practice",
+          "body": "Browser-only HTML/CSS/JS sandbox — safe and instant."
+        },
+        "achievements": {
+          "title": "Achievements",
+          "body": "XP, badges, and streaks tied to real learning."
+        }
+      },
+      "emptyHeading": "Today",
+      "emptyDescription": "Real activity will replace this once enrolment is live.",
+      "empty": {
+        "title": "Nothing to do yet",
+        "description": "Once a parent enrols you, your daily quest will appear here."
+      }
+    }
+  },
+  "staff": {
+    "home": {
+      "kicker": "Productivity shell preview",
+      "title": "Staff overview",
+      "lead": "Operational chrome for instructors, admins, and super-admins. Real data lands in Phase G.",
+      "crumbHome": "Home",
+      "crumbOverview": "Overview",
+      "placeholder": "Stub",
+      "statsHeading": "Today",
+      "statsDescription": "Stat tiles render shell + typography only — numbers will come from the analytics endpoints in Phase G.",
+      "stats": {
+        "activeStudents": {
+          "label": "Active students",
+          "note": "Children logged in over the last 24 hours."
+        },
+        "submissions": {
+          "label": "Submissions pending",
+          "note": "Awaiting instructor review."
+        },
+        "liveToday": {
+          "label": "Live sessions today",
+          "note": "Scheduled across all enrolled cohorts."
+        },
+        "incidents": {
+          "label": "Incidents open",
+          "note": "Support tickets or platform anomalies."
+        }
+      },
+      "queueHeading": "Action queue",
+      "queueDescription": "What needs you today — sorted by urgency.",
+      "queueEmpty": {
+        "title": "All clear",
+        "description": "The action queue will populate once instructors and admins start using the platform."
+      }
+    }
+  },
+  "parent": {
+    "home": {
+      "kicker": "Parent shell preview",
+      "title": "Welcome back, {{name}}",
+      "lead": "This is your home base. Soon you'll see each child's recent learning, upcoming sessions, payments, and instructor notes — all in one place.",
+      "fallbackName": "parent",
+      "logout": "Sign out",
+      "upcomingHeading": "Coming next",
+      "upcomingDescription": "These workspaces activate as Phases C through H land. Today they show the safe layout we will fill with real data.",
+      "tilesPhase": "Coming soon",
+      "todayHeading": "Today",
+      "todayDescription": "Real-time activity from your children will appear here.",
+      "empty": {
+        "title": "Nothing to review yet",
+        "description": "Once your children are enrolled and active, today's lessons, submissions, and announcements will land here."
+      },
+      "tiles": {
+        "children": {
+          "title": "Children",
+          "body": "Profiles, PIN credentials, age band, and the courses each child is enrolled in."
+        },
+        "progress": {
+          "title": "Progress",
+          "body": "Weekly minutes, completed lessons, mastery growth, and instructor commentary in plain language."
+        },
+        "attendance": {
+          "title": "Attendance",
+          "body": "Live-session attendance and at-a-glance streaks per child."
+        },
+        "payments": {
+          "title": "Payments",
+          "body": "Receipts, upcoming charges, refunds, and your billing details."
+        },
+        "reports": {
+          "title": "Reports",
+          "body": "Downloadable weekly summaries, certificates of completion, and parent–instructor notes."
+        },
+        "notifications": {
+          "title": "Notifications",
+          "body": "Choose which updates reach you by email and in-app — never noisy, always useful."
+        }
+      }
+    }
+  },
+  "auth": {
+    "trust": {
+      "secure": "Encrypted, parent-managed, COPPA & GDPR-aware. We never sell your data.",
+      "privacy": "Privacy",
+      "terms": "Terms",
+      "support": "Support"
+    },
+    "fields": {
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm password",
+      "displayName": "Your name",
+      "preferredLocale": "Preferred language",
+      "acceptedTerms": "I agree to the Terms of Service and Privacy Policy"
+    },
+    "hints": {
+      "displayName": "Shown on receipts and inside your dashboard. You can change this later.",
+      "password": "12+ characters; mix of upper, lower, numbers, or symbols (any three of four)."
+    },
+    "register": {
+      "kicker": "Create your parent account",
+      "title": "Start your child's learning adventure",
+      "description": "One account manages all of your children. We'll send a verification link to confirm your email.",
+      "submit": "Create account",
+      "submitting": "Creating your account…",
+      "haveAccount": "Already have an account?",
+      "signIn": "Sign in",
+      "successTitle": "Account created — check your email.",
+      "successBody": "We've sent a verification link to your inbox. It's valid for 24 hours."
+    },
+    "login": {
+      "kicker": "Welcome back",
+      "title": "Sign in to your parent account",
+      "description": "Access your children's progress, schedule, and account in one place.",
+      "submit": "Sign in",
+      "submitting": "Signing in…",
+      "noAccount": "New to Code Spark Kids?",
+      "createAccount": "Create a parent account",
+      "forgotPassword": "Forgot your password?",
+      "verifiedToast": "Your email is verified. You can sign in now.",
+      "resetToast": "Your password was updated. Sign in with your new password."
+    },
+    "verifyEmail": {
+      "kicker": "Verify your email",
+      "title": "Confirming your email",
+      "description": "We're confirming the verification link from your email.",
+      "loading": "Verifying your email…",
+      "successTitle": "Email verified",
+      "successDescription": "Thanks for confirming. You can now sign in.",
+      "successBody": "Thanks for confirming. You can now sign in.",
+      "invalidTitle": "Link expired or invalid",
+      "invalidDescription": "Verification links expire for safety. Request a new one from the resend form.",
+      "invalidBody": "Verification links expire for safety. Request a new one from the resend form.",
+      "continueToLogin": "Continue to sign in",
+      "requestNew": "Request a new verification email"
+    },
+    "verifyEmailSent": {
+      "kicker": "Almost there",
+      "title": "Check your email",
+      "description": "We just sent you a verification link.",
+      "body": "Open the email we sent and click the verification link to activate your account. The link is good for 24 hours.",
+      "didNotReceive": "Didn't get the email?",
+      "resend": "Resend verification email",
+      "resending": "Sending…",
+      "resentMessage": "If that address has a pending verification, we just re-sent the email.",
+      "backToLogin": "Back to sign in"
+    },
+    "forgot": {
+      "kicker": "Reset your password",
+      "title": "Forgot your password?",
+      "description": "Enter the email on your account and we'll send a password reset link.",
+      "submit": "Send reset link",
+      "submitting": "Sending…",
+      "hint": "For your safety we always show the same confirmation, whether or not the email is on file.",
+      "sentTitle": "If that email is registered, a reset link is on its way.",
+      "sentBody": "The link is valid for 1 hour. Check your spam folder if you don't see it within a few minutes.",
+      "backToLogin": "Back to sign in"
+    },
+    "reset": {
+      "kicker": "Reset your password",
+      "title": "Choose a new password",
+      "description": "Pick a strong password you don't use anywhere else.",
+      "submit": "Save new password",
+      "submitting": "Saving…",
+      "successTitle": "Password updated",
+      "successBody": "Your password was updated. Sending you to sign in…",
+      "invalidTitle": "Reset link expired or invalid",
+      "invalidBody": "Reset links expire after 1 hour. Request a new one from the forgot-password page.",
+      "requestNew": "Request a new reset link",
+      "backToLogin": "Back to sign in"
+    },
+    "errors": {
+      "emailRequired": "Email is required.",
+      "emailInvalid": "Enter a valid email address.",
+      "emailTooLong": "Email must be 254 characters or fewer.",
+      "passwordRequired": "Password is required.",
+      "passwordTooShort": "Use at least 12 characters.",
+      "passwordTooLong": "Keep your password under 128 characters.",
+      "passwordComplexity": "Use any three of: uppercase, lowercase, numbers, or symbols.",
+      "passwordMismatch": "Passwords do not match.",
+      "confirmPasswordRequired": "Please confirm your password.",
+      "displayNameRequired": "Tell us how to address you.",
+      "displayNameTooLong": "Keep your name under 80 characters.",
+      "displayNameControlChars": "Please remove control characters from your name.",
+      "localeUnsupported": "Choose a supported language.",
+      "termsRequired": "Please accept the Terms and Privacy Policy to continue.",
+      "invalidCredentials": "Email or password is incorrect.",
+      "emailNotVerified": "Please verify your email before signing in. Check your inbox for the verification link.",
+      "accountLocked": "Too many attempts. Try again in a few minutes, or reset your password.",
+      "refreshInvalid": "Your session has expired. Please sign in again.",
+      "refreshTheft": "Your session was reset for safety. Please sign in again.",
+      "resetInvalid": "This reset link is invalid or has expired.",
+      "verifyInvalid": "This verification link is invalid or has expired.",
+      "accessInvalid": "Please sign in to continue.",
+      "validation": "Please double-check the fields and try again.",
+      "rateLimited": "Too many requests. Please wait a moment and try again.",
+      "server": "Something went wrong on our side. Please try again in a moment.",
+      "network": "We couldn't reach the server. Check your connection and try again.",
+      "generic": "Something went wrong. Please try again.",
+      "invalidToken": "This link is invalid or has expired."
+    }
+  },
+  "designSystem": {
+    "kicker": "Task A2 · Visual Foundation",
+    "title": "Design System",
+    "lead": "Tokenised primitives, three age-aware themes, and full RTL support. Visual QA harness only — not a production page.",
+    "themeLabel": "Theme",
+    "themeNames": {
+      "junior": "Junior · ages 6–9",
+      "explorer": "Explorer · ages 10–16",
+      "staff": "Staff · instructor / admin"
+    },
+    "sections": {
+      "colors": "Colours",
+      "typography": "Typography",
+      "radius": "Radius",
+      "shadows": "Shadows",
+      "motion": "Motion",
+      "buttons": "Buttons",
+      "inputs": "Inputs",
+      "cards": "Cards",
+      "badges": "Badges",
+      "dialog": "Dialog",
+      "sheet": "Sheet",
+      "dropdown": "Dropdown menu",
+      "tabs": "Tabs",
+      "tooltip": "Tooltip"
+    },
+    "sectionLead": {
+      "colors": "Semantic colour tokens. Every component reads from these CSS variables — never hardcoded hex values.",
+      "typography": "Type scale at the active theme's base font size. Inter for Latin, Cairo for Arabic.",
+      "radius": "Radius scale. Junior is rounder, Staff is tighter, Explorer sits in the middle.",
+      "shadows": "Three-step elevation scale, neutral and direction-agnostic.",
+      "motion": "Hover a card to animate. Junior is slower and friendlier, Staff is snappy.",
+      "buttons": "All variants and sizes. Focus rings are visible. Icons size automatically.",
+      "inputs": "Form fields with labels. Focus state uses the theme's ring colour.",
+      "cards": "Surface containers. Composed of Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter.",
+      "badges": "Status pills. Use sparingly — never as decoration.",
+      "dialog": "Modal dialog with focus trap. Backdrop, animation, close button mirror correctly in RTL.",
+      "sheet": "Side panels. `side=\"start\"` and `side=\"end\"` resolve along the inline axis, so they auto-flip in RTL.",
+      "dropdown": "Menu attached to a trigger. Keyboard-navigable.",
+      "tabs": "Tab list with three panels. Arrow keys move focus.",
+      "tooltip": "Hover or focus the button to reveal."
+    },
+    "typeSample": "The quick brown fox jumps over the lazy dog.",
+    "motionHint": "Hover the card to animate width.",
+    "iconButtonLabel": "Notifications",
+    "withIconLeading": "With icon",
+    "withIconTrailing": "Save",
+    "inputs": {
+      "emailLabel": "Parent email",
+      "pinLabel": "Child PIN",
+      "disabledLabel": "Read-only example",
+      "disabledPlaceholder": "Disabled input"
+    },
+    "cards": {
+      "exampleTitle": "Course overview",
+      "exampleDescription": "A simple content card.",
+      "exampleBody": "Cards use the surface token for background and the border token for the outline. Padding and gap come from the spacing scale.",
+      "primaryAction": "Enrol",
+      "secondaryAction": "Save",
+      "statTitle": "Active learners",
+      "statDescription": "Across all enrolled children.",
+      "thisWeek": "this week"
+    },
+    "badges": {
+      "default": "Default",
+      "secondary": "Secondary",
+      "accent": "Accent",
+      "success": "Live",
+      "warning": "Beta",
+      "destructive": "Down",
+      "outline": "Outline"
+    },
+    "dialog": {
+      "open": "Open dialog",
+      "title": "Confirm enrolment",
+      "description": "Type OK to confirm enrolling Layla in Introduction to Scratch.",
+      "confirmLabel": "Type OK to confirm",
+      "cancel": "Cancel",
+      "confirm": "Confirm"
+    },
+    "sheet": {
+      "openStart": "Open sheet (start)",
+      "openEnd": "Open sheet (end)",
+      "title": "Side panel",
+      "descriptionStart": "Anchored to the start of the inline axis — left in LTR, right in RTL.",
+      "descriptionEnd": "Anchored to the end of the inline axis — right in LTR, left in RTL.",
+      "close": "Close"
+    },
+    "dropdown": {
+      "trigger": "Options",
+      "label": "Account",
+      "profile": "Profile",
+      "settings": "Settings",
+      "signOut": "Sign out"
+    },
+    "tabs": {
+      "learning": "Learning",
+      "progress": "Progress",
+      "rewards": "Rewards",
+      "learningBody": "Continue where you left off across courses, projects, and coding practice.",
+      "progressBody": "Weekly minutes, completed lessons, and instructor feedback summarised for parents.",
+      "rewardsBody": "XP, badges, and streaks earned by completing real learning — never for time spent."
+    },
+    "tooltip": {
+      "hover": "Hover or focus",
+      "content": "Tooltips position automatically and flip in RTL."
+    },
+    "footer": "Design system route is for visual QA only. It is excluded from the public marketing surface."
+  }
+}

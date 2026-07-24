@@ -1,0 +1,1 @@
+export { CourseCreatePage } from './CourseCreatePage';

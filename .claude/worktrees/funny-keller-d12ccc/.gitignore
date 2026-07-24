@@ -1,0 +1,96 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / editors
+.vs/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# .NET
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Ll]og/
+[Ll]ogs/
+*.nupkg
+*.snupkg
+*.rsuser
+project.lock.json
+project.fragment.lock.json
+artifacts/
+**/Properties/launchSettings.local.json
+*.pdb
+
+# EF Core
+**/Migrations/*.Designer.cs.bak
+
+# ASP.NET Core secrets
+secrets.json
+appsettings.*.local.json
+appsettings.Development.local.json
+*.pfx
+
+# Coverage
+coverage/
+TestResults/
+*.coverage
+*.coveragexml
+
+# Node / Vite / React
+node_modules/
+dist/
+dist-ssr/
+.vite/
+.cache/
+*.local
+.npm/
+.pnpm-store/
+.yarn/
+
+# Build
+build/
+
+# Env files (allow .env.example)
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local storage for IFileStorage local-disk impl
+storage/
+uploads/
+
+# Misc
+*.tsbuildinfo
+.eslintcache
+.stylelintcache
+
+# Generated OpenAPI types — produced by `npm run gen:api-types`
+frontend/src/types/api.d.ts
+
+# Visual QA screenshots — produced by `npm run visual:qa`
+frontend/artifacts/
+
+# Playwright temp / install state
+.playwright-browsers/
+
+# Local backend dev logs
+backend/dev-stdout.log
+backend/dev-stderr.log
+backend/logs/
