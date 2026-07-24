@@ -1,1 +1,0 @@
-export { LearningPathsListPage } from './LearningPathsListPage';

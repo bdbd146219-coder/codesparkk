@@ -1,1 +1,0 @@
-export { CoursesListPage } from './CoursesListPage';
