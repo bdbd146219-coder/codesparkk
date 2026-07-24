@@ -1,5 +1,7 @@
 # C4R — Full CI on SDK-8 Host / Backend + Media Verification
 
+> **⚠️ Provenance note (2026-07-24):** Written before the repository was accidentally re-initialized on first push. The feature/test **content survived**, but the **granular commit history and local branches were lost** — commit hashes and branches cited below (`7b8de94`, `f5a609a`, `089a31c`, `03276d3`, `claude/c4j-sqlserver-concurrency`, `backup/main-before-c4s`) may not resolve in the current repository, whose public Git history begins at `4ea0078`. Valid as historical development/test evidence, **not** as current Git ancestry. See [`REPOSITORY_HISTORY_RECOVERY_AND_HYGIENE.md`](REPOSITORY_HISTORY_RECOVERY_AND_HYGIENE.md).
+
 > **Task type:** Final CI verification gate before the `main` merge (documentation only).
 > **Outcome:** ✅ **all suites ran and passed on .NET SDK 8** — backend build/tests (incl. LocalDB SQL Server concurrency), frontend static checks + unit, E2E smoke, and both media E2E suites (incl. the full Option A upload chain). The SDK pin was **not** bypassed and `global.json` was **not** modified.
 > **Decision:** `CI VERIFIED — READY FOR MAIN MERGE`.

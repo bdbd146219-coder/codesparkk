@@ -1,5 +1,7 @@
 # C4S — Main Merge Completion
 
+> **⚠️ Provenance note (2026-07-24):** Written before the repository was accidentally re-initialized on first push. The feature/test **content survived**, but the **granular commit history and local branches were lost** — commit hashes and branches cited below (`7b8de94`, `f5a609a`, `089a31c`, `03276d3`, `claude/c4j-sqlserver-concurrency`, `backup/main-before-c4s`) may not resolve in the current repository, whose public Git history begins at `4ea0078`. Valid as historical development/test evidence, **not** as current Git ancestry. See [`REPOSITORY_HISTORY_RECOVERY_AND_HYGIENE.md`](REPOSITORY_HISTORY_RECOVERY_AND_HYGIENE.md).
+
 > **Task type:** Execute the already-approved local fast-forward merge of the C-series branch into `main` (local only; documentation of the result).
 > **Outcome:** ✅ `main` fast-forwarded `7b8de94 → f5a609a`. No merge commit, no conflicts, clean worktree. **Nothing pushed.**
 > **Decision:** `C4S COMPLETE — LOCAL MAIN FAST-FORWARDED TO C-SERIES TIP`.

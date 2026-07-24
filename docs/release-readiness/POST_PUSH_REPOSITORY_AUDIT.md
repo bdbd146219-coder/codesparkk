@@ -1,5 +1,7 @@
 # Post-Push Repository Audit
 
+> **✅ Resolved in C4V (2026-07-24):** the three issues below — squashed history, lost branches, and the `.claude/worktrees/` bloat — were addressed by the recovery + hygiene task. The worktrees were proven redundant and removed (1518 → 497 tracked files), `.gitignore` was hardened, and the QA routes were gated out of production. History could not be recovered locally (documented). See [`REPOSITORY_HISTORY_RECOVERY_AND_HYGIENE.md`](REPOSITORY_HISTORY_RECOVERY_AND_HYGIENE.md).
+
 > **Task type:** Post-push audit (read-only assessment + this docs-only report). No feature work, no history rewrite, no force-push, no branch deletion.
 > **Headline:** the push **succeeded and is in sync**, and the **complete C-series code + docs content is present** — but the push was made from a **re-initialized `.git`** as a single squashed `first commit`, so **the entire granular C-series history and all backup/feature branches are gone**, and **`.claude/worktrees/` (1021 stale duplicate files) was accidentally committed and pushed**.
 > **Overall:** repository is **healthy in content**, **degraded in history/provenance and hygiene**. Immediate cleanup recommended before any further work.
