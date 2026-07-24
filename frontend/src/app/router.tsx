@@ -1,3 +1,4 @@
+import { lazy, Suspense } from 'react';
 import { Navigate, Route, Routes } from 'react-router-dom';
 import { AuthShell, MarketingShell, ParentShell, StaffShell, StudentShell } from '@/app/shells';
 import { RequireAnonymous } from '@/app/guards/RequireAnonymous';
@@ -21,8 +22,6 @@ import { LearningPathDetailPage } from '@/features/staff/catalog/learning-paths/
 import { CoursesListPage } from '@/features/staff/catalog/courses';
 import { CourseCreatePage } from '@/features/staff/catalog/courses/create';
 import { CourseDetailPage } from '@/features/staff/catalog/courses/detail';
-import { DesignSystemPage } from '@/features/design-system/DesignSystemPage';
-import { SkeletonPage } from '@/features/skeleton/SkeletonPage';
 import { LoginPage } from '@/features/auth/pages/LoginPage';
 import { RegisterPage } from '@/features/auth/pages/RegisterPage';
 import { VerifyEmailPage } from '@/features/auth/pages/VerifyEmailPage';
@@ -31,12 +30,35 @@ import { ForgotPasswordPage } from '@/features/auth/pages/ForgotPasswordPage';
 import { ResetPasswordPage } from '@/features/auth/pages/ResetPasswordPage';
 import { ParentDashboardPlaceholder } from '@/features/parent/ParentDashboardPlaceholder';
 
+// Internal QA-only pages. Lazy-loaded so they are code-split out of the main
+// production bundle, and only ever registered as routes in dev/test (gated by
+// `enableQaRoutes`). They must never be reachable in a production build.
+const DesignSystemPage = lazy(() =>
+  import('@/features/design-system/DesignSystemPage').then((m) => ({
+    default: m.DesignSystemPage,
+  })),
+);
+const SkeletonPage = lazy(() =>
+  import('@/features/skeleton/SkeletonPage').then((m) => ({ default: m.SkeletonPage })),
+);
+
+export interface AppRouterProps {
+  /**
+   * Register the internal QA-only routes (`/design-system`, `/skeleton`).
+   * Defaults to `import.meta.env.DEV`, so the routes exist in dev/test but are
+   * never registered in a production build. Exposed only for testability —
+   * production renders `<AppRouter />` with no props. A query parameter or
+   * localStorage flag must never be able to enable these routes.
+   */
+  enableQaRoutes?: boolean;
+}
+
 /**
  * Route map. Each shell is a layout route — children render inside the
  * shell's <Outlet />. Auth + parent routes are wrapped by guards (which
  * also render an <Outlet />) so the URL contract matches the auth state.
  */
-export function AppRouter() {
+export function AppRouter({ enableQaRoutes = import.meta.env.DEV }: AppRouterProps = {}) {
   return (
     <Routes>
       {/* Public / marketing surface */}
@@ -94,9 +116,28 @@ export function AppRouter() {
         </Route>
       </Route>
 
-      {/* Internal QA harness — kept reachable for diff/QA history. */}
-      <Route path="/design-system" element={<DesignSystemPage />} />
-      <Route path="/skeleton" element={<SkeletonPage />} />
+      {/* Internal QA harness — dev/test only; never registered in production
+          (gated by enableQaRoutes, which defaults to import.meta.env.DEV). */}
+      {enableQaRoutes ? (
+        <>
+          <Route
+            path="/design-system"
+            element={
+              <Suspense fallback={null}>
+                <DesignSystemPage />
+              </Suspense>
+            }
+          />
+          <Route
+            path="/skeleton"
+            element={
+              <Suspense fallback={null}>
+                <SkeletonPage />
+              </Suspense>
+            }
+          />
+        </>
+      ) : null}
 
       {/* Unknown routes return to marketing home. */}
       <Route path="*" element={<Navigate to="/" replace />} />
